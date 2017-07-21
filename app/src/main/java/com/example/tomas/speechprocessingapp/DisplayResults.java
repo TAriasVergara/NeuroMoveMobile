@@ -1,7 +1,7 @@
 package com.example.tomas.speechprocessingapp;
 
 import android.content.Intent;
-import android.icu.text.SimpleDateFormat;
+//import android.icu.text.SimpleDateFormat;
 import android.media.MediaPlayer;
 import android.os.Build;
 import android.provider.AlarmClock;
@@ -20,6 +20,7 @@ import com.example.tomas.speechprocessingapp.SpeechProcessing.features.f0detecto
 import com.example.tomas.speechprocessingapp.SpeechProcessing.featureExtraction;
 import com.example.tomas.speechprocessingapp.SpeechProcessing.sigproc;
 
+import java.text.SimpleDateFormat;
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -28,6 +29,7 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 import static java.lang.Math.floor;
 import static java.lang.Math.round;
