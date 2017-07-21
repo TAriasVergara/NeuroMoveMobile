@@ -8,6 +8,8 @@ import static java.util.Arrays.copyOfRange;
  * Created by TOMAS on 20/04/2017.
  */
 
+// This is a test comment.
+
 public class BarkEnergy {
     //Sig is a frame window of the speech signal. The length must be power of 2.
     public BarkEnergy(){
